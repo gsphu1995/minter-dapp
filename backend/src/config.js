@@ -53,7 +53,7 @@ const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Roses-from-Galaxy-Y';
 const CONTRACT_SYMBOL = 'Roses';
-const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25';
 const TREASURY_ADDRESS = '0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25';
 const MAX_SUPPLY = 243; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
