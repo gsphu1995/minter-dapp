@@ -1,5 +1,5 @@
 const contractAddress = "0x4185d1fcBE0938D24A21d2d4A4110e9Bc5b3598B"; // Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
+const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Roses from Galaxy Y NFTs Project!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
