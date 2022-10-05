@@ -1,4 +1,4 @@
-const contractAddress = "0xBa0c9C12Ef734c620425aD0087c3Efb34224CA09"; // Replace with your own contract address
+const contractAddress = "0x5F0569e5A9B566e2cb8403Dd4F96e0a715fEeA3f"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Roses from Galaxy Y NFTs Project!";
