@@ -323,7 +323,7 @@ section {
   /*top: 90px; */
    top: 90px;
   /*left: 5rem; */
-   left: 1rem;
+   left: 5rem;
   z-index: -1;
 }
 
@@ -334,7 +334,7 @@ section {
 
 .splide__slide img {
 /*  width: 100%; */
-    width: 1%;
+    width: 100%;
 }
 
 /* SPINNER */
