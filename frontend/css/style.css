@@ -72,6 +72,8 @@ header .container {
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
+  /*  added the following line */
+  margin: 0 auto;
 }
 
 .show-not-connected {
