@@ -102,6 +102,8 @@ header .container {
   color: var(--font-color);
   font-size: 1.5rem;
   font-weight: bold;
+  /* added the following line */
+  margin: 0 auto;
 }
 
 /* BUTTONS */
