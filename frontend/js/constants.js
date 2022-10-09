@@ -1,9 +1,9 @@
-const contractAddress = "0x5F0569e5A9B566e2cb8403Dd4F96e0a715fEeA3f"; // Replace with your own contract address
+const contractAddress = "0xa17fD5D67dFbfA21F633E9D93D2a26535A254Cf1"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the Roses-from-Galaxy-Y NFTs Project!";
+const welcome_h1 = "Welcome to ACKCS.io! We are building a Web3 world marketplace of digital assets.";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Roses-from-Galaxy-Y NFTs Project is meant to greet future customers of ACKCS.io, a Web3 world marketplace of digital assets.';
+const welcome_p = 'We appreciate your patience while we are building. Please help yourself and mint a free NFT - a rose from Galaxy Y!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

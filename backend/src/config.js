@@ -13,13 +13,14 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 243,
+    growEditionSizeTo: 729,
     layersOrder: [
       { name: "Background" },
       { name: "Petals" },
       { name: "Sepals" },
       { name: "Stem" },
       { name: "Leaves" },
+      { name: "Pollinator"},
     ],
   },
 ];
@@ -37,8 +38,8 @@ const format = {
 const extraMetadata = {
 // external_url: "https://nftstreaming.world", // Replace with your website or remove this line if you do not have one.
   license_type: "PR - Personal Rights License",
-  license_terms: "Non-exclusive, Perpetual, irrevocalbe",
-  full_license: "https://ipfs.io/ipfs/QmbJnBXRaV13P2TY7CqxxNjc29MKc7EWh2UTDPcC2QKKvH",
+  license_terms: "Exclusive, Perpetual, irrevocalbe",
+  full_license: "https://ipfs.io/ipfs/QmW2HiF9BrXSVZ8dZLxMznV6jxF8MMfwL97MQ4g9HUNXuk",
   creator: "https://ackcs.io",
 };
 
@@ -55,21 +56,21 @@ const CONTRACT_NAME = 'Roses-from-Galaxy-Y';
 const CONTRACT_SYMBOL = 'Roses';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25';
-const TREASURY_ADDRESS = '0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25';
-const MAX_SUPPLY = 243; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TREASURY_ADDRESS = '0x5A8B7b8c16251ADE0e3f19E124bE79e91fcA9024';
+const MAX_SUPPLY = 729; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.0; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-10-06T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-09T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-10-04T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-10-08T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x5A8B7b8c16251ADE0e3f19E124bE79e91fcA9024"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25", "0x1ecD2c454d3c995079cf7089633711FbaD920670"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25", "0x1ecD2c454d3c995079cf7089633711FbaD920670", "0x5A8B7b8c16251ADE0e3f19E124bE79e91fcA9024"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "MY CONTRACT ADDRESS"; // If you want to manually include it
