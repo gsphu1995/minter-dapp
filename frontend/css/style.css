@@ -12,7 +12,7 @@
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #c893d3;
-  --accent-color: #f8fafa;
+  --accent-color: #6419af;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -59,7 +59,8 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
+  gap: 3rem;
   align-items: center;
 }
 
@@ -82,10 +83,11 @@ header .container {
 }
 
 .not-connected h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  /* text-shadow: 2px 2px 0 var(--accent-color); */
+  text-shadow: 0px 0px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
 }
 
 .not-connected p {
@@ -96,7 +98,8 @@ header .container {
 
 .not-connected a {
   text-decoration: none;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+  color: var(--font-color);
   font-size: 1.5rem;
   font-weight: bold;
 }
