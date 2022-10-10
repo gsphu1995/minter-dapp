@@ -75,7 +75,7 @@ header .container {
   align-items: center;
   /* changed height from 100% to Auto */
   /* height: 100%; */
-  height: Auto;
+  height: 120%;
   text-align: center;
   margin: 0 auto 0 35vw;
    /* changd opacity from 0 to 1 below */
