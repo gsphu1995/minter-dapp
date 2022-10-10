@@ -2,7 +2,7 @@ const contractAddress = "0xa17fD5D67dFbfA21F633E9D93D2a26535A254Cf1"; // Replace
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to ACKCS.io! We are building a Web3 marketplace of digital assets.";
-const welcome_h2 = "Connect to MetaMask to Get Started";
+const welcome_h2 = "Connect to MetaMask to Get Started. (Mobile phone users please open MetaMask App then launch browser within MetaMask.)";
 const welcome_p = 'We appreciate your patience while we are building. Please help yourself to mint a free NFT - a rose from Galaxy Y!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
