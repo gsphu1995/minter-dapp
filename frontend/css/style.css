@@ -70,6 +70,8 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
+  /* added the following line */
+  background-color: var(--bg-color);
   align-items: center;
   height: 100%;
   text-align: center;
@@ -83,6 +85,8 @@ header .container {
 }
 
 .show-not-connected {
+  /* added the following line */
+  background-color: var(--bg-color);
   opacity: 1;
   transform: translateY(0);
 }
