@@ -35,6 +35,8 @@ body {
 }
 
 .container {
+  /* added the following line */
+  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   /*max-width: 960px; */
