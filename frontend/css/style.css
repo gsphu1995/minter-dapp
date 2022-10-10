@@ -19,7 +19,7 @@
 
 * {
   /* added the following line */
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -36,7 +36,7 @@ body {
 
 .container {
   /* added the following line */
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   display: flex;
   flex-direction: column;
   /*max-width: 960px; */
@@ -71,7 +71,7 @@ header .container {
 /* NOT CONNECTED */
 .not-connected {
   /* added the following line */
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   align-items: center;
   height: 100%;
   text-align: center;
@@ -86,7 +86,7 @@ header .container {
 
 .show-not-connected {
   /* added the following line */
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   opacity: 1;
   transform: translateY(0);
 }
@@ -213,9 +213,7 @@ section {
   height: auto;
 }
 .countdown .clock-item .count-number {
-  /*  changed bg color in the line below */
-  /*  background: var(--accent-color); */
-  background: var(--bg-color);
+  background: var(--accent-color);
   color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
@@ -281,8 +279,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  /* changed bg color below */
-  background-color: var(--bg-color);
+  background-color: var(--accent-color);
   border-radius: 5px;
 }
 
@@ -319,8 +316,7 @@ section {
 }
 
 .total-price-container p {
-  /* changed color from --accent-color to --bg-color */
-  color: var(--bg-color);
+  color: var(--accent-color);
 }
 
 /* MINTED CONTAINER */
