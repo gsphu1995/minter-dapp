@@ -1,5 +1,5 @@
-const contractAddress = "0xa17fD5D67dFbfA21F633E9D93D2a26535A254Cf1"; // Replace with your own contract address
-const chain = 'goerli'; // goerli, polygon, or ethereum
+const contractAddress = "0xf1060046eD06617E5a7F48BBfad0DF78432ed7E3"; // Replace with your own contract address
+const chain = 'ethereum'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to ACKCS.io! We are building a Web3 marketplace of digital assets.";
 const welcome_h2 = "Connect to MetaMask to Get Started. (Mobile phone users please open MetaMask App then launch browser within MetaMask.)";

@@ -38,7 +38,7 @@ const format = {
 const extraMetadata = {
 // external_url: "https://nftstreaming.world", // Replace with your website or remove this line if you do not have one.
   license_type: "PR - Personal Rights License",
-  license_terms: "Exclusive, Perpetual, irrevocalbe",
+  license_terms: "Exclusive, Perpetual, Irrevocalbe",
   full_license: "https://ipfs.io/ipfs/QmW2HiF9BrXSVZ8dZLxMznV6jxF8MMfwL97MQ4g9HUNXuk",
   creator: "https://ackcs.io",
 };
@@ -49,7 +49,7 @@ const extraMetadata = {
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
 // const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
-const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
+const CHAIN = 'ethereum'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Roses-from-Galaxy-Y';
@@ -62,15 +62,15 @@ const MINT_PRICE = 0.0; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, 
 const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-10-09T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-10T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-10-08T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-10-09T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x5A8B7b8c16251ADE0e3f19E124bE79e91fcA9024"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25", "0x1ecD2c454d3c995079cf7089633711FbaD920670", "0x5A8B7b8c16251ADE0e3f19E124bE79e91fcA9024"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x2c1aaFfc91B8865b5f042b3b5f81bd0e51b2Ac25", "0x5A8B7b8c16251ADE0e3f19E124bE79e91fcA9024", "0x9497D3E2a988c3366aa177DA33B7B9d2797b1112", "0x353a5b7dAe0E7A9f08C1aA875936cEa372F9F8cb", "0x36fad8FCaB1D3E52f12377ca2B10ad74ea9a9976", "0x2268Ed77D454fac4CE03e21E3B38873b72C28560", "0x8CE89fBeF4837d0798a0646e4d0DE248eFC23287", "0x90876Df27F1F991BE740715ab8d00A8857043EB6", "0x06D68a680a8e028623CE6f2B376Ac0a828f75Ede", "0xA057E123ec8d75Ed5ED20D211ef0a28c88e796d9"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "MY CONTRACT ADDRESS"; // If you want to manually include it
