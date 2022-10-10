@@ -388,7 +388,9 @@ section {
     max-width: 8rem;
   }
   .not-connected {
-    background-color: var(--bg-color-transparent);
+    /* changed bg color below */
+    /* background-color: var(--bg-color-transparent); */
+    background-color: var(--bg-color);
     border-radius: 5px;
     padding: 2rem;
     margin: 0 auto;
