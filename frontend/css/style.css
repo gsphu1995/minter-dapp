@@ -83,7 +83,7 @@ header .container {
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   /*  added the following line */
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .show-not-connected {
