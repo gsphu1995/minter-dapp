@@ -277,7 +277,8 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--accent-color);
+  /* changed bg color below */
+  background-color: var(--bg-color);
   border-radius: 5px;
 }
 
