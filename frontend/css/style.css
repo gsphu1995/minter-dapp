@@ -314,7 +314,8 @@ section {
 }
 
 .total-price-container p {
-  color: var(--accent-color);
+  /* changed color from --accent-color to --bg-color */
+  color: var(--bg-color);
 }
 
 /* MINTED CONTAINER */
