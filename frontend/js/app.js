@@ -354,8 +354,8 @@ async function mint() {
         .presaleMint(amount, merkleJson)
         .send({ from: window.address, value: value.toString() });
       if(presaleMintTransaction) {
-        if(chain === 'goerli') {
-          const url = `https://goerli.etherscan.io/tx/${presaleMintTransaction.transactionHash}`;
+        if(chain === 'ethereum') {
+          const url = `https://etherscan.io/tx/${presaleMintTransaction.transactionHash}`;
           const mintedContainer = document.querySelector('.minted-container');
           const countdownContainer = document.querySelector('.countdown');
           const mintedTxnBtn = document.getElementById("mintedTxnBtn");
