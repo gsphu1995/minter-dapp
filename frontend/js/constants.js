@@ -3,7 +3,7 @@ const chain = 'ethereum'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to ACKCS.io! We are building a Web3 marketplace of digital assets.";
 const welcome_h2 = "Connect to MetaMask to Get Started. (Mobile phone users please open MetaMask App then launch browser within MetaMask.)";
-const welcome_p = 'We appreciate your patience while we are building. Please help yourself to mint a free NFT - a rose from Galaxy Y! If you like, check out the collection on opensea by searching: roses from galaxy y.';
+const welcome_p = 'We appreciate your patience while we are building. Please help yourself to mint a free NFT - a rose from Galaxy Y! If you like, check out the collection on opensea: roses from galaxy y.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
