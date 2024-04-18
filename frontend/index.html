@@ -1,183 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>ACKCS-Web3 Marketplace of Digital Assets</title>
-    <!-- <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<head>
+  <title>ACKCS-Web3 Marketplace of Digital Assets</title>
+  <style>
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 800px;
+    }
+    .video-container img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <img src= "https://supdop.com/contentcards/0xf44c14493946b2e3daaa9b79bec42b7c0b1d88e0_20240417060352" onclick="loadVideo(this, 'https://supdop.com/contents/0xf44c14493946b2e3daaa9b79bec42b7c0b1d88e0_20240417060352')">
+  </div>
+  <div class="video-container">
+    <img src="https://supdop.com/contentcards/0xf44c14493946b2e3daaa9b79bec42b7c0b1d88e0_20240417061623" onclick="loadVideo(this, 'https://supdop.com/contents/0xf44c14493946b2e3daaa9b79bec42b7c0b1d88e0_20240417061623')">
+  </div>
+  <div class="video-container">
+    <img src="https://supdop.com/contentcards/0x84bd9e2d0ed7928ace38aa11ff82c6d13654024f_20240414153704" onclick="loadVideo(this, 'https://supdop.com/contents/0x84bd9e2d0ed7928ace38aa11ff82c6d13654024f_20240414153704')">
+  </div>
 
-    <!-- favicon -->
-  <!--  <link
-         rel="apple-touch-icon" 
-         type="image/png"
-         sizes="180x180"
-         href="images/x-icon/apple-touch-icon.png"
-        />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/x-icon/ACKCS-Logo.svg"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/x-icon/favicon-16x16.png"
-    /> -->
+<script>
+function loadVideo(imageElement, videoUrl) {
+  const container = imageElement.parentNode;
+  container.innerHTML = `<iframe src="${videoUrl}" width="100%" height="800" frameborder="0" allowfullscreen></iframe>`;
+}
+</script>
 
-  <!--  <link rel="manifest" href="images/x-icon/site.webmanifest" />
-    <link rel="stylesheet" href="css/three-dots.min.css" />
-    <link rel="stylesheet" href="css/splide.min.css" />  -->
-
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-  </head>
-
-  <body>
-    <!-- <header>
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/ACKCS-Logo.png" alt="logo" />
-          </a>
-        </div>
-
-        <div class="menu">
-          <a
-            href="https://discord.gg/yd6NnKbHuf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
-          </a>
-          <a
-            href="https://twitter.com/ACKCS_io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.webp" alt="Twitter" />
-          </a>
-       
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
-        </div>
-      </div>
-    </header> -->
-
-    <!-- <section class="container not-connected">
-      <div>
-        <h1 id="welcomeH1">Welcome to ACKCS.io! We are building a Web3 world marketplace of digital assets.</h1>
-        <p id="welcomeP">
-        We appreciate your patience while we are building. Please help yourself and mint a free NFT - a rose from Galaxy Y! 
-        </p>
-        <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
-      </div>
-    </section>
-     -->
-     <div>
-    <iframe src="https://supdop.com/contents/0xf44c14493946b2e3daaa9b79bec42b7c0b1d88e0_20240417060352" width="100%" height="800" frameborder="0" allowfullscreen></iframe>
-    <iframe src="https://supdop.com/contents/0xf44c14493946b2e3daaa9b79bec42b7c0b1d88e0_20240417061623" width="100%" height="800" frameborder="0" allowfullscreen></iframe>
-    <iframe src="https://supdop.com/contents/0x84bd9e2d0ed7928ace38aa11ff82c6d13654024f_20240414153704" width="100%" height="800" frameborder="0" allowfullscreen></iframe>
-    
-    </div>
-
-    <!-- <section class="container">
-      <div class="countdown card">
-        <div id="countdown">
-          <ul class="count-down" data-date="">
-            <li class="clock-item">
-              <span class="count-number days">20</span>
-              <p class="count-text">Days</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number hours">20</span>
-              <p class="count-text">Hour</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number minutes">20</span>
-              <p class="count-text">Min</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number seconds">20</span>
-              <p class="count-text">Sec</p>
-            </li>
-          </ul>
-          <h2 id="subHeading">Pre-Sale Countdown</h2>
-        </div>
-        <h1 id="mainHeading"> NFT Drop Coming Soon!! </h1>
-        <p id="mainText">
-          A new batch of roses will be available very soon! </p>
-        <a
-          id="actionButton"
-          href="https://discord.gg/yd6NnKbHuf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
-        </a>
-
-        <div id="mintContainer" class="mint-container hidden">
-          <div class="info-container">
-            <div>
-              <h3>Supply</h3>
-              <p id="totalSupply">100</p>
-            </div>
-            <div>
-              <h3>Price Per Mint</h3>
-              <p id="pricePerMint">1 ETH</p>
-            </div>
-            <div>
-              <h3>Max</h3>
-              <p id="maxPerMint">5 per wallet</p>
-            </div>
-          </div>
-          <div class="mint-qty">
-            <span>
-              <button class="input-number-decrement btn" id="mintDecrement">–</button>
-              <input
-                id="mintInput"
-                class="input-number btn"
-                type="number"
-                value="1"
-                min="1"
-                max="5"
-              />
-              <button class="input-number-increment btn" id="mintIncrement">+</button>
-            </span>
-            <button id="setQtyMax" class="btn">SET MAX</button>
-          </div>
-          <div class="total-price-container">
-            <h3>Total</h3>
-            <p id="totalPrice">.001 ETH</p>
-          </div>
-          <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
-        </div>
-      </div>
-      <div class="minted-container card show-card hidden">
-        <h1>🎉</h1>
-        <h2>Minted!</h2>
-        <p>Here's your trasaction link:</p>
-        <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-          <button class="hero-btn btn">View Transaction</button>
-        </a>
-        <p>View it in the collection:</p>
-        <a
-          id="mintedLinkBtn"
-          href="https://opensea.io/collection/roses-from-galaxy-y"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button class="hero-btn btn">View Collection</button>
-        </a>
-      </div>
-    </section>
-
-    <div id="spinner" class="dot-spin"></div> 
-
-   
-  </body>
+</body>
 </html>
